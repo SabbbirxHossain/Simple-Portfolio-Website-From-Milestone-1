@@ -4,6 +4,13 @@
   font-family: "Open Sans", sans-serif;
 }
 
+header{
+  background-color: rgb(255, 248, 243);
+  background-image: url('./Images/images/developer.png'),url('./Images/images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left,bottom right;
+}
+
 .text-primary{
   color: rgb(253, 110, 10);
   
@@ -50,4 +57,38 @@ nav ul li {
 nav li a{
   text-decoration: none;
   font-size: 20px;
+}
+
+/* Banner styles */
+
+.banner{
+  margin: 50px 38px 0 200px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.banner-content{
+  max-width: 580px;
+}
+
+.banner-greeting{
+  color: rgb(71, 71, 71);
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-title{
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.banner-description{
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+}
+.banner-profile-picture{
+  width: 580px;
 }
